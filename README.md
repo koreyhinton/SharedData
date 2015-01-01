@@ -33,7 +33,7 @@ let myValue = defaults.valueForKey("myKey") as String
 
 5) Enable App Groups in Project Capabilities Settings for both the Extension and the App
 
-6) In SharedData.swift change appName and appDomain values repective values.
+6) In SharedData.swift change appName and appDomain values to their repective values.
 
 7) Make sure the following files are members of both the App target and the Extension target:
 * SharedData.swift
