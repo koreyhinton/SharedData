@@ -5,6 +5,8 @@ Share data between iPhone App and Apple Watch Extension with this singleton clas
 
 ### Code Usage ###
 
+If you follow the Setup instructions below you'll be able to access the SharedData.sharedInstance singleton from both the Watch Extension and in the App project files and be able to access the same data stored in Core Data and NSUserDefaults from the App and the Extension.
+
 #### Core Data ####
 
 ```swift
