@@ -11,6 +11,7 @@ If you follow the Setup instructions below you'll be able to access the SharedDa
 
 ```swift
 let moc = SharedData.sharedInstance.managedObjectContext
+// add, retrieve, or update objects
 SharedData.sharedInstance.saveContext()
 ```
 
@@ -18,6 +19,7 @@ SharedData.sharedInstance.saveContext()
 ```swift
 var defaults = SharedData.sharedInstance.defaults
 defaults.setObject("myValue", forKey: "myKey")
+let myValue = defaults.valueForKey("myKey") as String
 ```
 ### Setup instructions ###
 
